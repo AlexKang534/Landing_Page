@@ -1,0 +1,189 @@
+body {
+  /* set the entire page to neutral */
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  text-align: center; /* Move everything centered for flex */
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /*Column creates centeredness */
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  color: #f9faf8;
+  background-color: #1f2937;
+  padding: 20px 0px 20px 100px;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 84px;
+  max-height: 84px;
+  margin-right: auto;
+}
+
+.header {
+  display: flex;
+  margin-left: auto;
+  padding: 0px 100px 0px 0px;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+/*Top Section */
+
+.mid-box {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 90px;
+}
+
+.best-golf {
+  flex-basis: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 50px;
+}
+
+.best-golf p {
+  font-family: "Roboto", arial;
+  opacity: 0.65;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.best-golf button {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  background-color: blue;
+  color: white;
+  border-radius: 8px;
+  padding: 10px;
+  border: none;
+  width: 110px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.main-img img {
+  width: 500px;
+  height: 350px;
+  object-fit: fill;
+}
+
+/* Mid Section */
+
+.bottom-box {
+  align-items: center;
+}
+
+.content-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.content-info img {
+  width: 200px;
+  height: 200px;
+  object-fit: fill;
+  border: 4px solid #3882f6;
+  border-radius: 15px;
+  margin: 5px 20px 0px 20px;
+}
+
+/* Quotation */
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 0 200px;
+}
+
+.quote p {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: lighter;
+  font-family: "Roboto", sans-serif;
+}
+
+.quote b {
+  font-size: 24px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  text-align: right;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Sign up Section */
+.signup {
+  background-color: #3882f6;
+  margin: 50px 200px;
+  padding: 10px 80px;
+  border-radius: 5px;
+  border-color: none;
+  align-items: center;
+  display: flex;
+}
+
+.sign-text {
+  flex: 1;
+}
+
+.sign-text h3 {
+  text-align: left;
+  color: white;
+  font-family: "roboto", sans-serif;
+  padding: 0;
+  margin: 30px 0px 0px 50px;
+}
+
+.sign-text p {
+  text-align: left;
+  color: white;
+  opacity: 0.7;
+  margin: 5px 30px 30px 50px;
+}
+
+.registration button {
+  color: white;
+  font-family: "roboto", sans-serif;
+  border-radius: 8px;
+  border-width: medium;
+  background-color: #3882f6;
+  padding: 5px 25px;
+  font-size: 15px;
+  border-color: white;
+}
+
+.footnote {
+  background-color: #1f2937;
+  color: #fff;
+  font-family: "Roboto", arial;
+  padding: 10px 0px 10px 0;
+}
